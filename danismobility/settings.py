@@ -25,7 +25,7 @@ SECRET_KEY = 'sn=))2z=6f#_+i^7wq8p93e55ohvj)_ugfqeaq36!8n1q!@5+n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://pyordermanager.herokuapp.com']
 
 
 # Application definition
