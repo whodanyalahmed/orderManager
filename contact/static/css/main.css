@@ -1,0 +1,154 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:montserrat;
+
+}
+body{
+    
+    background: rgb(190, 190, 190) ;
+    color:#fff ;
+}
+#logo a{
+    font-size:4em;
+    font-family:dry brush;
+    text-decoration: none;
+    color:#eee;
+    padding-left:50px;
+    
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin:-70px 0px;
+    padding-right:50px;
+}
+nav ul li {
+    display:inline-block;
+    margin:auto;
+    
+}
+nav ul li a{
+    padding:20px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    color:#fff;
+    background: transparent;
+}
+nav ul li a:hover{
+    color:#ccc ;
+    background: rgba(99, 99, 99, 0.8);
+
+}
+hr{
+    border:3px solid rgba(4, 29, 39, 0.842);
+    margin-top:-40px;
+    width:350px;
+    margin-bottom:50px;
+}
+header{
+    padding:auto 80px;
+    z-index:10;
+    box-shadow: 2px 0px 10px 0px #555;
+    position: fixed;
+    width:100%;
+    background: #555;
+    margin-bottom:100px;
+}
+
+main{
+    width: 978px;
+    margin:0px auto;
+    padding:100px;
+    background: rgba(221, 221, 221, 0.794);
+    color:#222;
+}
+main ul{
+    list-style: none;
+    
+}
+#section{
+    line-height: 38px;
+    margin-bottom: 60px;
+    border-bottom: 5px solid #555;
+    border-bottom-style:dashed;
+    padding-bottom:80px;
+}
+
+main ul li h2{
+    font-size: 2.5em;
+    margin-left: -40px;
+    margin-bottom:20px;
+}
+main ul li{
+    margin-left:80px;
+    font-weight: 800;
+}
+main ul li a{
+    color:#222;
+    text-decoration: none;
+    font-weight:500;
+}
+
+main h1{
+    font-size:3.5em;
+    margin-bottom:40px;
+}
+
+main form{
+    line-height: 50px;
+
+}
+
+main form input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none !important;
+  margin: 0 !important; 
+}
+
+main form input[type=number]{
+     
+  -moz-appearance: textfield;
+}
+
+main form input,#id_requirements{
+    padding:5px 15px;
+    border-radius: 30px;
+    border:none;
+    background: #fff;
+    outline:none;
+}
+#id_requirements{
+    padding:20px 20px;
+}
+#submit{
+    font-size: 20px;
+    padding:15px 25px;
+    color:#555;
+    background: #eee;
+    float:right;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#submit:hover{
+    background: rgba(55, 55, 55, 0.8);
+    color:#fff;
+}
+#contact{
+    font-size:3.5em;
+    margin-bottom: 40px;
+    font-weight: 200;
+    padding-top:90px;
+}
+footer{
+    padding:50px;
+    background:#555;
+    width:100%;
+    text-align: center;
+}
+
+#head{
+    padding-top:90px !important;
+}

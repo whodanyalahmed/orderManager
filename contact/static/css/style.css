@@ -1,0 +1,153 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:montserrat;
+
+}
+body{
+    
+    background: #fff;
+    color:#fff ;
+}
+#logo a{
+    font-size:4em;
+    font-family:dry brush;
+    text-decoration: none;
+    color:#eee;
+    padding-left:50px;
+    
+}
+.row{
+    background: rgba(238, 238, 238, 0.39);
+    
+}
+hr{
+    color:#fff;
+}
+nav{
+    padding:20px 0px;
+    padding-bottom: 90px;
+
+}
+.nav-wrapper{
+    background:#263238 ;
+
+}
+.nav-wrapper ul li a{
+    color:#fff;
+}
+
+main{
+    width: 978px;
+    margin:0px auto;
+    padding:100px;
+    background: #fff;
+    color:#222;
+}
+main ul{
+    list-style: none;
+    
+}
+#section{
+    line-height: 38px;
+    margin-bottom: 60px;
+    border-bottom: 5px solid #555;
+    border-bottom-style:dashed;
+    padding-bottom:80px;
+}
+
+input[type="text"]:not(.browser-default){
+    background-color: #fefefe;
+}
+
+main ul li h2{
+    font-size: 2.5em;
+    margin-left: -40px;
+    margin-bottom:20px;
+}
+main ul li{
+    margin-left:80px;
+    font-weight: 800;
+}
+main ul li a{
+    color:#222;
+    text-decoration: none;
+    font-weight:500;
+}
+
+main h1{
+    font-size:3.5em;
+    margin-bottom:40px;
+    font-family: montserrat;
+    font-weight: 400;
+}
+
+main form{
+    line-height: 50px;
+
+}
+
+main form input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none !important;
+  margin: 0 !important; 
+}
+
+main form input[type=number]{
+     
+  -moz-appearance: textfield;
+}
+
+main form input,#id_requirements{
+    padding:5px 15px;
+    border-radius: 30px;
+    border:none;
+    background: #fff;
+    outline:none;
+}
+#id_requirements{
+    padding:20px 20px;
+}
+#submit{
+    font-size: 20px;
+    padding:15px 25px;
+    color:#555;
+    background: #eee;
+    float:right;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#submit:hover{
+    background: rgba(55, 55, 55, 0.8);
+    color:#fff;
+}
+#contact{
+    font-size:3.5em;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-family: montserrat;
+}
+footer{
+    padding:50px;
+    background:#212121;
+    color:#fff;
+    width:100%;
+    text-align: center;
+}
+#id_requirements {
+    padding: 20px 20px;
+    resize: none;
+    overflow: hidden;
+    height: 150px;
+}
+form p {
+
+    line-height: 3em;
+
+    }
+
+form input{
+    background: #fefefe;
+}

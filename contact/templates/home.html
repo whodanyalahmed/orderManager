@@ -1,0 +1,27 @@
+
+{% extends 'base.html' %}
+
+{% block title %}
+
+DanisMobility contact
+
+{% endblock title %} 
+
+
+{% block body %}
+
+    <h1 id="head">Submitted Queries:</h1><hr>
+    {% for info in datas  %}
+    <ul id="section">
+        
+        <li><a href="{% url 'detail' info.pk %}"><h2>{{ info.name }}</h2></a></li>
+        <li>Company Name: <a href="#">{{ info.company }}</a></li>
+        <li>Field: <a href="#">{{ info.field }}</a></li>
+        <li>Budget: <a href="#">{{ info.budget }}</a></li>
+        <li>Phone: <a href="#">0{{ info.phone }}</a></li>
+        <li>Requirements: <a href="#">{{ info.requirements }}</a></li>
+        <li>Date: <a href="#">{{ info.date }}</a></li>
+        
+    </ul>
+    {% endfor %}
+{% endblock body %}
