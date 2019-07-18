@@ -8,18 +8,18 @@ from django.views.generic.edit import CreateView
 
 # Create your views here.
 
-class homeView(LoginRequiredMixin,ListView):
+class homeView(ListView):
     model = data
     template_name = "list.html"
     context_object_name = 'datas'
-    login_url = 'login'
-    success_url = "home"
+    # login_url = 'login'
+    # success_url = "home"
 
 
-class loginView(TemplateView):
-    model = data
-    template_name = "registration/login.html"
-    success_url = reverse_lazy('home')
+# class loginView(TemplateView):
+#     model = data
+#     template_name = "registration/login.html"
+#     success_url = reverse_lazy('home')
 
 class newView(CreateView):
     model = data
