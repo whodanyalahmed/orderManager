@@ -52,6 +52,7 @@ main{
     padding:100px;
     background: #fff;
     color:#222;
+    min-height: 100vh;
 }
 main ul{
     list-style: none;
