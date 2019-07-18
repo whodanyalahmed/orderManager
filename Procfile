@@ -1,1 +1,1 @@
-web: gunicorn danismobility.wsgi --log-file 
+web: gunicorn danismobility.wsgi
