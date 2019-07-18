@@ -23,6 +23,7 @@ body{
 }
 hr{
     color:#fff;
+    margin-top:-60px;
 }
 nav{
     padding:20px 0px;
@@ -31,7 +32,6 @@ nav{
 }
 .nav-wrapper{
     background:#263238 ;
-
 }
 .nav-wrapper ul li a{
     color:#fff;
@@ -46,6 +46,7 @@ main{
 }
 main ul{
     list-style: none;
+    min-height: 100vh;
     
 }
 #section{
