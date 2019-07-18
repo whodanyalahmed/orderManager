@@ -21,12 +21,18 @@ body{
     background: rgba(238, 238, 238, 0.39);
     
 }
-hr{
-    color:#fff;
-    margin-top:-40px;
+
+.white-text h1{
+    margin-bottom: 20px;
+}
+
+h1 > hr{
     width:400px;
     border:2px solid #222;
     margin-bottom: 20px;
+}
+#hr{
+    border:2px solid #fff;
 }
 nav{
     padding:20px 0px;
