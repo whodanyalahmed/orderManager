@@ -14,7 +14,7 @@ DanisMobility contact
     {% for info in datas  %}
     <ul id="section">
         
-        <li><a href="{% url 'detail' info.pk %}"><h2>{{ info.name }}</h2></a></li>
+        <li><a href="{% url 'detail' info.pk %}"><h2> {{ info.name }}</h2></a></li>
         <li>Company Name: <a href="#">{{ info.company }}</a></li>
         <li>Field: <a href="#">{{ info.field }}</a></li>
         <li>Budget: <a href="#">{{ info.budget }}</a></li>

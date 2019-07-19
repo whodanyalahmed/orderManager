@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  
+    
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
     <title>{% block title %}
     
     {% endblock title %}</title>
@@ -29,9 +29,29 @@
 
      <header >
 
+ {% comment %} <nav>
+    <div class="nav-wrapper indigo">
+      <a href="#" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul> {% endcomment %}
         
-        <nav class="nav-wrapper">
-        <span id="logo"><a href="{% url 'home' %}">Logo</a></span>
+<nav class="nav-wrapper">
+        <span id="logo"><a href="{% url 'home' %}" class="brand-logo">Logo</a></span>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger" ><i class="material-icons" >menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="{% url 'home' %}">Home</a></li>
                 <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
@@ -40,6 +60,13 @@
                 <li><a href="{% url 'create' %}">Contact us</a></li>
             </ul>
         </nav>
+       <ul class="sidenav" id="mobile-demo">
+         <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+                <li><a href="{% url 'create' %}">Request</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="{% url 'create' %}">Contact us</a></li>
+         </ul>
     </header> 
     <main id="head">
         {% block body %}
@@ -48,5 +75,13 @@
     <footer>
     This website is all right reserved&reg; by Danis Mobility and co.
     </footer>
+        <script>
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  })
+    
+    </script>
 </body>
 </html>
