@@ -26,6 +26,8 @@ body{
     margin-bottom: 20px;
 }
 
+
+
 h1 > hr{
     width:400px;
     border:2px solid #222;
@@ -33,6 +35,11 @@ h1 > hr{
 }
 #hr{
     border:2px solid #fff;
+}
+#menuhead{
+    padding-top:20px;
+    margin-left:30px;
+    color:rgb(158, 158, 158);
 }
 nav{
     padding:20px 0px;
