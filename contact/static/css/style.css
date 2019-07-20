@@ -1,7 +1,8 @@
+
 *{
     padding:0px;
     margin:0px;
-    font-family:montserrat;
+    font-family:Montserrat,Roboto;
 
 }
 body{
@@ -186,7 +187,7 @@ form input{
 
 @media screen and (max-width: 992px) {
     main,footer,#logo,.sidenav > a{
-      font-size:18px;
+      font-size:0.9em;
     }
     #rowtext{
         padding-left:20px;
@@ -197,12 +198,17 @@ form input{
     #logo a{
         padding-left:0px;
     }
+
+    .material-icons > a:hover{
+        color:rgb(149, 149, 149) !important;
+    }
+
   }
   
   /* On screens that are 600px or less, set the background color to olive */
   @media screen and (max-width: 600px) {
     main,footer,#logo,.sidenav >a{
-        font-size:16px;
+        font-size:0.7em;
       }
       #section{
         line-height: 20px;
@@ -227,5 +233,8 @@ form input{
     }
     #logo a{
         padding-left:0px;
+    }
+    .material-icons > a:hover{
+        color:rgb(149, 149, 149) !important;
     }
   }
