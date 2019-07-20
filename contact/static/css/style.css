@@ -56,7 +56,7 @@ nav{
 
 main{
     width: 100%;
-    margin:0px auto;
+    margin:0 auto;
     padding:100px;
     background: #fff;
     color:#222;
@@ -189,6 +189,10 @@ form input{
     main,footer,#logo,.sidenav > a{
       font-size:0.9em;
     }
+    #section{
+    font-size:0.98em;
+    line-height: 25px;
+    }
     #rowtext{
         padding-left:20px;
     }
@@ -211,6 +215,7 @@ form input{
         font-size:0.7em;
       }
       #section{
+          font-size:0.8em;
         line-height: 20px;
         margin-bottom: 30px;
         border-bottom: 2px solid #555;
@@ -222,7 +227,7 @@ form input{
     }
     nav{
         margin-top:-20px;
-        padding-bottom: 60px;
+        padding-bottom: 70px;
     
     }
     #rowtext{
