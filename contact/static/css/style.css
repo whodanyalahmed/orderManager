@@ -194,6 +194,9 @@ form input{
     .row{
         padding-bottom:30px;
     }
+    #logo a{
+        padding-left:0px;
+    }
   }
   
   /* On screens that are 600px or less, set the background color to olive */
@@ -221,5 +224,8 @@ form input{
     }
     .row{
         padding-bottom:30px;
+    }
+    #logo a{
+        padding-left:0px;
     }
   }
