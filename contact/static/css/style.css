@@ -70,10 +70,12 @@ main{
     text-align:center;
     font-size:3em;
 }
-#Portfolio  i{
-    font-size:4em;
+#Portfolio div {
     opacity: 0.3;
-    padding-top:20px;
+    text-align:center;
+}
+#Portfolio i{
+    font-size:5em;
 }
 main ul{
     list-style: none;
