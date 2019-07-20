@@ -11,7 +11,8 @@ Order Manager
 {% block body %}
 
     <h1 id="head">Submitted Queries:<hr></h1>
-    {% for info in datas  %}
+
+    {% for info in datas %}
     <ul id="section">
         
         <li><a href="{% url 'detail' info.pk %}"><h2> {{ info.name }}</h2></a></li>
@@ -23,5 +24,19 @@ Order Manager
         <li>Date: <a href="#">{{ info.date }}</a></li>
         
     </ul>
+    
+    {% empty %}
+
+    
+    <i id="entrynotfound" class="material-icons">error_outline</i>
+    
+
+    <h1 align="center">There is nothing data found in Database.</h1>
+
     {% endfor %}
+    
+
+
+
+
 {% endblock body %}
