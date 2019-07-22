@@ -219,7 +219,9 @@ form input{
     .material-icons > a:hover{
         color:rgb(149, 149, 149) !important;
     }
-
+    #nothing{
+        font-size:20px;
+    }
   }
   
   /* On screens that are 600px or less, set the background color to olive */
@@ -234,6 +236,9 @@ form input{
         border-bottom: 2px solid #555;
         border-bottom-style:dashed;
         padding-bottom:50px;
+    }
+    #nothing{
+        font-size:18px;
     }
     footer{
         padding:20px;
