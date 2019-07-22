@@ -221,6 +221,7 @@ form input{
     }
     #entrynotfound{
         font-size:4em;
+        text-align: center;
     }
     #nothing{
         font-size:20px;
@@ -242,6 +243,7 @@ form input{
     }
     #entrynotfound{
         font-size:3em;
+        text-align:center;
     }
     #nothing{
         font-size:18px;
