@@ -19,6 +19,7 @@ body{
     
 }
 .row{
+    margin-top:10%;
     background: rgba(238, 238, 238, 0.39);
   
 }
@@ -61,6 +62,7 @@ nav{
 }
 .nav-wrapper ul li a{
     color:#fff;
+    font-size:20px;
 }
 
 main{
