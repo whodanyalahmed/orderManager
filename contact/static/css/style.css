@@ -18,8 +18,10 @@ body{
     padding-left:50px;
     
 }
+#detailrow{
+       margin-top:10%;
+}
 .row{
-    margin-top:10%;
     background: rgba(238, 238, 238, 0.39);
   
 }
@@ -62,7 +64,7 @@ nav{
 }
 .nav-wrapper ul li a{
     color:#fff;
-    font-size:20px;
+    font-size:18px;
 }
 
 main{
@@ -91,7 +93,7 @@ main{
 }
 main ul{
     list-style: none;
-    min-height: 100vh;
+    min-height:50vh;
     
 }
 #section{
@@ -181,6 +183,7 @@ footer{
     color:#fff;
     width:100%;
     text-align: center;
+    font-size:18px;
 }
 #id_requirements {
     padding: 20px 20px;
@@ -271,4 +274,12 @@ form input{
     .material-icons > a:hover{
         color:rgb(149, 149, 149) !important;
     }
+  }
+
+  @media screen and (max-width: 360px) {
+
+    #logo a,footer{
+        font-size:16px;
+    }
+
   }

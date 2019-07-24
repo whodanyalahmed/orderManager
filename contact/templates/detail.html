@@ -7,7 +7,7 @@ Detail
 
 
 {% block body%}
- <div class="row">
+ <div class="row container" id="detailrow">
     <div class="col s12 m5">
       <div class="card-panel teal">
         <span class="white-text">
@@ -16,7 +16,6 @@ Detail
         <hr id="hr">
         <p><center>{{info.field}}</p>
         
-        {% get_current_timezone as TIME_ZONE %}
         <p><b>Ordered at:</b> {{info.date}}</center></p>
         </span>
       </div>
