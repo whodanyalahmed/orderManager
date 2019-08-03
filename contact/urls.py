@@ -5,5 +5,5 @@ urlpatterns = [
     path('',homeView.as_view(),name="home"),
     path('create/',newView.as_view(),name="create"),
     path('detail/<int:pk>',detailView.as_view(),name="detail"),
-    path("portfolio/",portfolioView.as_view(),name="portfolio")
+    path("portfolio/",portfolioView.as_view(),name="portfolio"),
 ]

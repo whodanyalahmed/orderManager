@@ -60,7 +60,16 @@
                 <li><a href="{% url 'create' %}">Request</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="{% url 'create' %}">Contact us</a></li>
+                {% if user.is_authenticated %}<br>
+            <li align="right">Hi {{ user.username }}!</li>
+            <li><a href="{% url 'logout' %}">Log out</a></li>
+            {% else %}
+            <li><p>You are not logged in.</p></li>
+            <a href="{% url 'login' %}">Log In</a>
+            {% endif %}
+            
             </ul>
+            
         </nav>
        <ul class="sidenav container" id="mobile-demo">
        <li><h2 id="menuhead">Menu</h2></li>
